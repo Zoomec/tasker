@@ -1,7 +1,8 @@
-import React from "react";
+import Header from "./layout/Header";
+
 
 function App() {
-  return React.createElement('h1', {}, 'Hello world')
+  return <Header />
 }
 
 export default App;
